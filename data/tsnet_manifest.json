@@ -1,0 +1,126 @@
+{
+  "selection": "21 evenly spaced eligible pipe indices; choose the first held-out position for each pipe",
+  "sources": [
+    {
+      "pipe": 0,
+      "pipe_name": "P24",
+      "xi": 0.6204693892021104
+    },
+    {
+      "pipe": 1,
+      "pipe_name": "P23",
+      "xi": 0.3203645322871532
+    },
+    {
+      "pipe": 2,
+      "pipe_name": "P20",
+      "xi": 0.16461125106083305
+    },
+    {
+      "pipe": 3,
+      "pipe_name": "P19",
+      "xi": 0.13176661581540253
+    },
+    {
+      "pipe": 4,
+      "pipe_name": "P15",
+      "xi": 0.3828957378314742
+    },
+    {
+      "pipe": 6,
+      "pipe_name": "P12",
+      "xi": 0.6444036564515848
+    },
+    {
+      "pipe": 7,
+      "pipe_name": "P11",
+      "xi": 0.8069984133594672
+    },
+    {
+      "pipe": 9,
+      "pipe_name": "P9",
+      "xi": 0.33653663121217553
+    },
+    {
+      "pipe": 10,
+      "pipe_name": "P112",
+      "xi": 0.4169941769898372
+    },
+    {
+      "pipe": 11,
+      "pipe_name": "P111",
+      "xi": 0.6165025524646303
+    },
+    {
+      "pipe": 12,
+      "pipe_name": "P108",
+      "xi": 0.6653494437289307
+    },
+    {
+      "pipe": 13,
+      "pipe_name": "P105",
+      "xi": 0.5876474246341924
+    },
+    {
+      "pipe": 14,
+      "pipe_name": "P104",
+      "xi": 0.14827945160591266
+    },
+    {
+      "pipe": 15,
+      "pipe_name": "P103",
+      "xi": 0.19483369169606152
+    },
+    {
+      "pipe": 16,
+      "pipe_name": "P102",
+      "xi": 0.829444039046859
+    },
+    {
+      "pipe": 19,
+      "pipe_name": "P85",
+      "xi": 0.3892700567109791
+    },
+    {
+      "pipe": 20,
+      "pipe_name": "P82",
+      "xi": 0.8899564284747785
+    },
+    {
+      "pipe": 21,
+      "pipe_name": "P66",
+      "xi": 0.31959955162746395
+    },
+    {
+      "pipe": 25,
+      "pipe_name": "P61",
+      "xi": 0.4760574056738304
+    },
+    {
+      "pipe": 29,
+      "pipe_name": "P110_2",
+      "xi": 0.13596610598432943
+    },
+    {
+      "pipe": 31,
+      "pipe_name": "P7",
+      "xi": 0.21214261389088113
+    }
+  ],
+  "sensor_names": [
+    "J10",
+    "J84",
+    "J102",
+    "J107",
+    "J88",
+    "J62",
+    "J79",
+    "J46",
+    "J16",
+    "J51"
+  ],
+  "min_source_pipe_length_m": 100.0,
+  "network_pipes": 33,
+  "eligible_source_pipes": 21,
+  "note": "Prepared before simulation or localisation. No event is selected by its prediction error."
+}

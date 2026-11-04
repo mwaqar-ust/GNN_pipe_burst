@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this teaching material, please cite the tutorial and the relevant sources in REFERENCES.md."
+type: software
+title: "Graph Neural Networks for Passive Transient Source Localisation: An Interactive HKUST Tutorial"
+authors:
+  - family-names: "Waqar"
+    given-names: "Muhammad"
+    affiliation: "Hong Kong Metropolitan University"
+date-released: 2026-11-04
+abstract: >-
+  A self-contained Jupyter teaching project that introduces graphs, adjacency,
+  travel-time priors, input features, embeddings and message passing through
+  passive hydraulic transient source localisation on the HKUST retained primary network.
+  A compact graph neural network predicts an original pipe and a continuous
+  position within it. The project includes prepared hydraulic signals,
+  interactive explanations, training examples and optional local simulations.
+keywords:
+  - graph neural networks
+  - hydraulic transients
+  - passive source localisation
+  - water distribution networks
+  - Jupyter tutorial
+  - TSNet

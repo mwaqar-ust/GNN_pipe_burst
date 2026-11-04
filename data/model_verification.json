@@ -1,0 +1,94 @@
+{
+  "network": "HKUST",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "numpy": "1.26.4",
+  "torch": "2.15.0+cpu",
+  "device": "cpu",
+  "training_seconds": 47.895694914997875,
+  "checkpoint_selected_by": "minimum validation combined loss only",
+  "test_used_in_selection": false,
+  "parameters": 16066,
+  "model_sha256": "e66bc9f45b8190949998e32fab6a1d725e3fb8719e907334491df245c5e4b0b0",
+  "roundtrip_exact_predictions": true,
+  "training": {
+    "seed": 42,
+    "sigma": 0.01,
+    "quantum": 0.01,
+    "timing_noise": {
+      "mode": "gaussian",
+      "sigma_s": 0.01,
+      "quantum_s": 0.01,
+      "sampling_hz": 100.0
+    },
+    "architecture": "residual_gcn",
+    "position_mode": "sigmoid",
+    "position_weight": 4.0,
+    "best_epoch": 78,
+    "completed_epochs": 108,
+    "training_device": "cpu",
+    "train_sources": 1008,
+    "validation_sources": 252,
+    "min_source_pipe_length": 100.0,
+    "source_pipe_count": 21,
+    "validation_loss": 0.24847410595606242,
+    "input": "relative first-arrival times",
+    "features": "broadcast timings + graph travel-time landmarks + local timing/mask"
+  },
+  "graph": {
+    "nodes": 31,
+    "pipes": 33,
+    "sensors": [
+      "J10",
+      "J84",
+      "J102",
+      "J107",
+      "J88",
+      "J62",
+      "J79",
+      "J46",
+      "J16",
+      "J51"
+    ],
+    "source_pipe_count": 21,
+    "nominal_speed_range_m_s": [
+      1137.4050330990954,
+      1231.3780626758762
+    ],
+    "effective_speed_range_m_s": [
+      1131.9401394049191,
+      1245.640539564155
+    ],
+    "reference_dt_s": 0.0010463157644093413,
+    "coordinate_projection": "local equirectangular metres from INP longitude/latitude"
+  },
+  "results": {
+    "Graph-prior held-out sources": {
+      "events": 42,
+      "localised_events": 42,
+      "missing_arrival_events": 0,
+      "GNN": {
+        "Pipe accuracy (%)": 97.61904761904762,
+        "Mean network distance error (m)": 26.163189875871858
+      }
+    },
+    "TSNet signals: clean": {
+      "events": 21,
+      "localised_events": 21,
+      "missing_arrival_events": 0,
+      "GNN": {
+        "Pipe accuracy (%)": 100.0,
+        "Mean network distance error (m)": 21.17680935751008
+      }
+    },
+    "TSNet signals: noise and picking uncertainty": {
+      "events": 21,
+      "localised_events": 21,
+      "missing_arrival_events": 0,
+      "GNN": {
+        "Pipe accuracy (%)": 90.47619047619048,
+        "Mean network distance error (m)": 32.20191936224937
+      }
+    }
+  }
+}

@@ -1,0 +1,178 @@
+[TITLE]
+; HKUST primary-network TSNet base model
+; Unsplit 31-node, 33-pipe network for controlled source-case generation
+
+[JUNCTIONS]
+;ID                  Elevation     Demand       Pattern
+J51                  0             0            
+J58                  0             0            
+J46                  0             0            
+J82                  0             0            
+J88                  0             0            
+J16                  0             0            
+J79                  0             0            
+J69                  0             0            
+J84                  0             0            
+J99                  0             0            
+J102                 0             0            
+J11                  0             0            
+J10                  0             0            
+J108                 0             0            
+J107                 0             0            
+J104                 0             0            
+J103                 0             0            
+J90                  0             0            
+J89                  0             0            
+J85                  0             0            
+J59                  0             0            
+J63                  0             0            
+J62                  0             0            
+J17                  0             0            
+J61                  0             0            
+J60                  0             0            
+J56                  0             0            
+J25                  0             0            
+J41                  0             0            
+J6                   0             0            
+[RESERVOIRS]
+;ID                  Head          Pattern
+T1                   40            
+
+[TANKS]
+;ID                  Elevation     InitLevel    MinLevel     MaxLevel     Diameter     MinVol       VolCurve
+
+[PIPES]
+;ID                  Node1         Node2         Length       Diameter     Roughness    MinorLoss    Status
+P24                  J51           J58           187.18       300          0.02         0            Open
+P23                  J46           J51           255.92       300          0.02         0            Open
+P20                  J82           J88           334.93       300          0.02         0            Open
+P19                  J16           J46           400.59       300          0.02         0            Open
+P15                  J79           J69           429.84       300          0.02         0            Open
+P14                  J82           J84           43.07        300          0.02         0            Open
+P12                  J99           J88           259.63       300          0.02         0            Open
+P11                  J99           J102          120.64       300          0.02         0            Open
+P10                  J11           J10           67.36        300          0.02         0            Open
+P9                   J10           J16           166.27       300          0.02         0            Open
+P112                 J108          J107          533.05       450          0.02         0            Open
+P111                 T1            J108          232.22       450          0.02         0            Open
+P108                 J107          J99           104.03       300          0.02         0            Open
+P105                 J104          J82           159.02       300          0.02         0            Open
+P104                 J104          J46           110.56       300          0.02         0            Open
+P103                 J102          J104          262.58       300          0.02         0            Open
+P102                 J102          J103          141.45       250          0.02         0            Open
+P89                  J90           J88           31.06        200          0.02         0            Open
+P88                  J89           J90           70.38        200          0.02         0            Open
+P85                  J84           J79           304.13       300          0.02         0            Open
+P82                  J85           J84           159.53       250          0.02         0            Open
+P66                  J59           J79           231.4        300          0.02         0            Open
+P62                  J59           J63           20.95        300          0.02         0            Open
+P58                  J62           J63           20.2         300          0.02         0            Open
+P16                  J16           J17           48.56        300          0.02         0            Open
+P61                  J62           J58           108.03       300          0.02         0            Open
+P60                  J61           J62           83.64        250          0.02         0            Open
+P59                  J58           J60           23.01        250          0.02         0            Open
+P55                  J51           J56           48.12        250          0.02         0            Open
+P110_2               J10           J108          813.66       450          0.02         0            Open
+P5                   J17           J25           74.32        250          0.02         0            Open
+P7                   J17           J41           121.01       250          0.02         0            Open
+P13                  J90           J6            90.1         200          0.02         0            Open
+
+[PUMPS]
+;ID                  Node1         Node2         Parameters
+
+[VALVES]
+;ID                  Node1         Node2         Diameter     Type     Setting      MinorLoss
+
+[DEMANDS]
+;Junction            Demand        Pattern       Category
+
+[EMITTERS]
+;Junction            Coefficient
+
+[STATUS]
+;ID                  Status/Setting
+
+[PATTERNS]
+;ID                  Multipliers
+
+[CURVES]
+;ID                  X-Value       Y-Value
+
+[CONTROLS]
+
+[RULES]
+
+[ENERGY]
+Global Efficiency    75
+Global Price         0
+Demand Charge        0
+
+[TIMES]
+Duration             0:00
+Hydraulic Timestep   1:00
+Quality Timestep     0:05
+Pattern Timestep     1:00
+Pattern Start        0:00
+Report Timestep      1:00
+Report Start         0:00
+Start ClockTime      12 am
+Statistic            None
+
+[REPORT]
+Status               No
+Summary              No
+Page                  0
+
+[OPTIONS]
+Units                 LPS
+Headloss              D-W
+Specific Gravity      1
+Viscosity             1
+Trials                40
+Accuracy              0.001
+CHECKFREQ              2
+MAXCHECK               10
+DAMPLIMIT              0
+Unbalanced             Continue 10
+Pattern                1
+Demand Multiplier      1.0
+Emitter Exponent       0.5
+Quality                None mg/L
+Diffusivity            1
+Tolerance              0.01
+
+[COORDINATES]
+;Node                 X-Coord       Y-Coord
+J51                   114.2631918   22.3398038
+J58                   114.2644647   22.3389514
+J46                   114.2629921   22.3377644
+J82                   114.2636867   22.3376267
+J88                   114.2643692   22.3352157
+J16                   114.2601333   22.3397177
+J79                   114.2669133   22.3374592
+J69                   114.2692498   22.3377147
+J84                   114.2641049   22.3376061
+J99                   114.2632088   22.3335105
+J102                  114.262706    22.3344812
+J11                   114.2581679   22.3390806
+J10                   114.2586619   22.3394783
+J108                  114.2610869   22.3326413
+J107                  114.2628661   22.3326303
+T1                    114.2597567   22.3324094
+J104                  114.2626856   22.3368335
+J103                  114.2635391   22.3349544
+J90                   114.2646148   22.3351626
+J89                   114.2645242   22.3346867
+J85                   114.2655821   22.337501
+J59                   114.2656055   22.3389117
+J63                   114.2654056   22.3388754
+J62                   114.2652126   22.3388417
+J17                   114.2602175   22.3401474
+J61                   114.2652909   22.3393222
+J60                   114.2645872   22.3391042
+J56                   114.2633099   22.3399316
+J25                   114.26065     22.3404562
+J41                   114.2595024   22.3403097
+J6                    114.264925    22.3357735
+[END]
+

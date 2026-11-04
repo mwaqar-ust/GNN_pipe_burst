@@ -1,0 +1,224 @@
+{
+  "date": "2026-11-04",
+  "scope": "Fresh actual TSNet MOC burst and matched no-burst simulations for the complete prespecified held-out source list.",
+  "events": 21,
+  "recording_shape": [
+    21,
+    300,
+    30
+  ],
+  "sampling_hz": 100.0,
+  "original_junctions_recorded": 30,
+  "inserted_source_excluded": true,
+  "all_heads_and_responses_finite": true,
+  "all_clean_sensor_picks_detected": true,
+  "no_sources_selected_by_predictions": true,
+  "same_heldout_sources_checked": true,
+  "minimum_pressure_head_m": 37.460861069871655,
+  "maximum_relative_pick_minus_prior_ms": 8.935023739490678,
+  "nominal_speed_range_m_s": [
+    1137.4050330990954,
+    1231.3780626758762
+  ],
+  "events_detail": [
+    {
+      "pipe": "P24",
+      "fraction": 0.6204693892021104,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 7.338735955892739,
+      "minimum_pressure_head_m": 38.394568402268625,
+      "actual_dt_s": 0.0010466372756858702,
+      "runtime_seconds": 228.1672985769983
+    },
+    {
+      "pipe": "P23",
+      "fraction": 0.3203645322871532,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 8.35870390703719,
+      "minimum_pressure_head_m": 38.49053793838967,
+      "actual_dt_s": 0.0010463653307874023,
+      "runtime_seconds": 115.708941511999
+    },
+    {
+      "pipe": "P20",
+      "fraction": 0.16461125106083305,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 4.227707124251384,
+      "minimum_pressure_head_m": 38.51292229565615,
+      "actual_dt_s": 0.0010467365859043543,
+      "runtime_seconds": 127.7904463829982
+    },
+    {
+      "pipe": "P19",
+      "fraction": 0.13176661581540253,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 3.5981574000376604,
+      "minimum_pressure_head_m": 38.44761655922612,
+      "actual_dt_s": 0.0010468210025914545,
+      "runtime_seconds": 183.93384359599804
+    },
+    {
+      "pipe": "P15",
+      "fraction": 0.3828957378314742,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 8.29627613447026,
+      "minimum_pressure_head_m": 38.31339329074189,
+      "actual_dt_s": 0.0010463671034037444,
+      "runtime_seconds": 234.00055731599787
+    },
+    {
+      "pipe": "P12",
+      "fraction": 0.6444036564515848,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 6.908496280544796,
+      "minimum_pressure_head_m": 38.21153133104452,
+      "actual_dt_s": 0.0010462282657645657,
+      "runtime_seconds": 152.06179800700193
+    },
+    {
+      "pipe": "P11",
+      "fraction": 0.8069984133594672,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 8.935023739490678,
+      "minimum_pressure_head_m": 38.71998168208387,
+      "actual_dt_s": 0.0010478032070360204,
+      "runtime_seconds": 182.0147307240004
+    },
+    {
+      "pipe": "P9",
+      "fraction": 0.33653663121217553,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 7.196911341335932,
+      "minimum_pressure_head_m": 38.92280139796214,
+      "actual_dt_s": 0.0010466592234354233,
+      "runtime_seconds": 228.209363897
+    },
+    {
+      "pipe": "P112",
+      "fraction": 0.4169941769898372,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 3.6552904912007245,
+      "minimum_pressure_head_m": 39.1681438986034,
+      "actual_dt_s": 0.0010463197696304913,
+      "runtime_seconds": 168.00253654599874
+    },
+    {
+      "pipe": "P111",
+      "fraction": 0.6165025524646303,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 6.817859362346024,
+      "minimum_pressure_head_m": 39.38105062845227,
+      "actual_dt_s": 0.0010464593854105674,
+      "runtime_seconds": 255.97515880500214
+    },
+    {
+      "pipe": "P108",
+      "fraction": 0.6653494437289307,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 6.304911074352104,
+      "minimum_pressure_head_m": 38.90757337428751,
+      "actual_dt_s": 0.001046400807742622,
+      "runtime_seconds": 129.62145574799797
+    },
+    {
+      "pipe": "P105",
+      "fraction": 0.5876474246341924,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 6.389312588485129,
+      "minimum_pressure_head_m": 38.7794457931394,
+      "actual_dt_s": 0.0010466389748062556,
+      "runtime_seconds": 286.99073899799987
+    },
+    {
+      "pipe": "P104",
+      "fraction": 0.14827945160591266,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 8.030279117995697,
+      "minimum_pressure_head_m": 38.92364919229302,
+      "actual_dt_s": 0.0010468319292616433,
+      "runtime_seconds": 274.83442097700026
+    },
+    {
+      "pipe": "P103",
+      "fraction": 0.19483369169606152,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 5.190539803706651,
+      "minimum_pressure_head_m": 38.71406921592431,
+      "actual_dt_s": 0.0010466627897598082,
+      "runtime_seconds": 190.57488889899832
+    },
+    {
+      "pipe": "P102",
+      "fraction": 0.829444039046859,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 7.253992450988456,
+      "minimum_pressure_head_m": 37.5250727411056,
+      "actual_dt_s": 0.001046471702617227,
+      "runtime_seconds": 220.2758980949984
+    },
+    {
+      "pipe": "P85",
+      "fraction": 0.3892700567109791,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 4.3053844750995935,
+      "minimum_pressure_head_m": 38.5196854441935,
+      "actual_dt_s": 0.001046382198462717,
+      "runtime_seconds": 164.30593486399812
+    },
+    {
+      "pipe": "P82",
+      "fraction": 0.8899564284747785,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 5.109273866175323,
+      "minimum_pressure_head_m": 37.460861069871655,
+      "actual_dt_s": 0.0010486241982220182,
+      "runtime_seconds": 156.3917901269997
+    },
+    {
+      "pipe": "P66",
+      "fraction": 0.31959955162746395,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 5.054172546591518,
+      "minimum_pressure_head_m": 38.66071191456216,
+      "actual_dt_s": 0.0010464137205026978,
+      "runtime_seconds": 297.4929895759997
+    },
+    {
+      "pipe": "P61",
+      "fraction": 0.4760574056738304,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 4.2464293270263465,
+      "minimum_pressure_head_m": 38.57256253537799,
+      "actual_dt_s": 0.0010471477301370095,
+      "runtime_seconds": 267.77244245899783
+    },
+    {
+      "pipe": "P110_2",
+      "fraction": 0.13596610598432943,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 6.16847328215997,
+      "minimum_pressure_head_m": 39.0745359070085,
+      "actual_dt_s": 0.001046281646996429,
+      "runtime_seconds": 196.33539279899924
+    },
+    {
+      "pipe": "P7",
+      "fraction": 0.21214261389088113,
+      "clean_sensor_detections": 10,
+      "max_relative_pick_minus_prior_ms": 5.9673287334005565,
+      "minimum_pressure_head_m": 37.50407108682242,
+      "actual_dt_s": 0.0010471115177212527,
+      "runtime_seconds": 309.0879706409978
+    }
+  ],
+  "cache_sha256": "5a99a395b76c05f85cd1c4a27d7afb863b3e1e5f0e90a5026de2cc7362703750",
+  "default_picker": {
+    "fixed_lead_in_s": 0.3,
+    "absolute_threshold_m": 0.001,
+    "baseline_MAD_multiplier": 6.0,
+    "persistent_samples": 2,
+    "linear_threshold_interpolation": true,
+    "final_feature_quantum_s": 0.01
+  },
+  "platform": "Linux CPU; TSNet0.3.1, WNTR1.3.2, NumPy1.26.4"
+}

@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-04",
+  "case": "HKUST retained primary network",
+  "scope": "Same accepted GNN teaching workflow rebuilt with HKUST physical inputs, freshly trained model and fresh independent hydraulic signals.",
+  "unit_tests": {
+    "passed": 36,
+    "failed": 0,
+    "seconds": 10.865,
+    "command": "python -m unittest discover -s tests -v"
+  },
+  "notebook": {
+    "code_cells": 17,
+    "error_outputs": 0,
+    "seconds": 14.05,
+    "execution": "IPython in-process",
+    "optional_training": false,
+    "optional_simulation": false,
+    "platform": "linux",
+    "python": "3.12.14",
+    "numpy": "1.26.4",
+    "torch": "2.15.0+cpu",
+    "cuda_available": false
+  },
+  "model": {
+    "architecture": "Two-layer residual GNN, width 32",
+    "parameters": 16066,
+    "training_runs": 1,
+    "best_epoch": 78,
+    "completed_epochs": 108,
+    "checkpoint_selection": "Minimum validation loss only; no test results used.",
+    "roundtrip_exact": true
+  },
+  "hydraulics": {
+    "new_held_out_events": 21,
+    "original_junctions_recorded": 30,
+    "sampling_hz": 100.0,
+    "samples_per_event": 300,
+    "all_630_clean_junction_picks_detected": true,
+    "all_210_clean_sensor_picks_detected": true,
+    "minimum_pressure_head_m": 37.460861,
+    "source_node_excluded": true,
+    "default_sensors_max_quantized_relative_timing_discrepancy_ms": 9.571,
+    "all_junctions_max_quantized_relative_timing_discrepancy_ms": 10.376,
+    "scope": "Controlled simulations with 40 m supply, zero initial demands/elevations and Darcy factor 0.02; no field-validation claim."
+  },
+  "interactive_ui": {
+    "graph_tabs_checked": 16,
+    "signal_tabs_checked": 11,
+    "model_unchanged": true,
+    "native_browser_tested": false,
+    "detail": "Python callbacks tested at multiple sensor/noise settings; static figures inspected."
+  },
+  "standalone_archive": {
+    "status": "passed",
+    "manifest_sha256": "all files passed",
+    "archive_crc": "passed",
+    "npz_archives_checked": 25,
+    "extracted_folder_notebook": {
+      "code_cells": 17,
+      "error_outputs": 0,
+      "seconds": 15.44,
+      "execution": "IPython in-process",
+      "optional_training": false,
+      "optional_simulation": false,
+      "platform": "linux",
+      "python": "3.12.14",
+      "numpy": "1.26.4",
+      "torch": "2.15.0+cpu",
+      "cuda_available": false
+    },
+    "machine_specific_paths_in_release": false
+  },
+  "limitations": [
+    "Linux CPU execution was tested using Python 3.12.14, NumPy 1.26.4, Torch 2.15.0+cpu, WNTR 1.3.2 and TSNet 0.3.1.",
+    "Windows and physical NVIDIA GPU execution were not available.",
+    "Fresh Conda setup and pinned PyTorch 2.7.1 installation were not executed here.",
+    "Notebook execution used IPython in-process because ipykernel was unavailable; a fresh-kernel checker and Windows/Linux CPU CI are included.",
+    "The supplied GitHub Actions workflow has not been run remotely."
+  ]
+}

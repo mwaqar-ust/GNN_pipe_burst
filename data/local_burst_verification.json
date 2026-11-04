@@ -1,0 +1,75 @@
+{
+  "source": {
+    "pipe_name": "P103",
+    "xi": 0.5,
+    "distance_from_start_m": 131.29,
+    "original_pipe_length_m": 262.58
+  },
+  "metadata": {
+    "solver": "TSNet MOCSimulator",
+    "friction": "steady",
+    "versions": {
+      "tsnet": "0.3.1",
+      "wntr": "1.3.2",
+      "numpy": "1.26.4"
+    },
+    "background_subtracted_for_arrival_picking": true,
+    "background_note": "Matched no-burst TSNet run on the same split network removes numerical initialisation drift. This is a controlled synthetic experiment.",
+    "requested_dt_s": 0.00104045,
+    "cfl_limited_requested_dt_s": 0.00104045,
+    "actual_dt_s": 0.0010464867222756372,
+    "nominal_wave_speed_m_s": null,
+    "wave_speed_model": "K9 ductile-iron diameter-dependent speeds",
+    "nominal_speed_min_m_s": 1137.4050330990954,
+    "nominal_speed_max_m_s": 1231.3780626758762,
+    "effective_speed_min_m_s": 1131.755221558483,
+    "effective_speed_max_m_s": 1245.437047207986,
+    "maximum_relative_speed_adjustment": 0.020028740455058536,
+    "supply_head_m": 40.0,
+    "darcy_friction_factor": 0.02,
+    "initial_condition": "Zero background demand and elevation; network initially at rest.",
+    "minimum_pressure_head_m": 38.69603184693981,
+    "start_time_s": 0.5,
+    "rise_time_s": 0.02,
+    "final_burst_coefficient_m3_s_sqrt_m": 0.00015811388300841897,
+    "runtime_s": 175.9384206169998,
+    "warnings": [
+      "pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.",
+      "Use of .. or absolute path in a resource path is not allowed and will raise exceptions in a future release.",
+      "Changing the headloss formula from H-W to D-W will not change the units of the roughness coefficient.",
+      "Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)",
+      "wntr.network.WaterNetworkModel.get_graph is deprecated, use wntr.network.WaterNetworkModel.to_graph instead"
+    ],
+    "source_node_is_excluded_from_recorded_features": true,
+    "observation_lead_in_s": 0.3,
+    "original_pipe_start": "J102",
+    "original_pipe_end": "J104"
+  },
+  "recorded_original_junctions": 30,
+  "finite_heads": true,
+  "finite_100Hz_sensor_picks": true,
+  "source_junction_excluded": true,
+  "scope": "A prespecified P103 midpoint physics workflow check, separate from the 21 held-out evaluation events.",
+  "max_relative_arrival_discrepancy_ms": 4.085011887511314,
+  "relative_discrepancy_ms": [
+    -4.085011887511314,
+    -1.5353458084593485,
+    0.0,
+    -0.37236554898331664,
+    -2.2152546369968995,
+    0.3172562994099293,
+    0.04820889674239659,
+    -3.0674777877421624,
+    -3.073307705891093,
+    0.3009960924773569
+  ],
+  "graph_reference": "Shared material speeds discretised on the original unsplit network before a source was specified.",
+  "gnn_inference": {
+    "device": "cpu",
+    "predicted_pipe": "P103",
+    "predicted_fraction": 0.5500327944755554,
+    "network_distance_error_m": 13.137611173391342,
+    "finite_probabilities": true,
+    "scope": "One prespecified optional-workflow check, separate from the held-out cache and checkpoint selection."
+  }
+}

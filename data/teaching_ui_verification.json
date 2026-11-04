@@ -1,0 +1,51 @@
+{
+  "network": "HKUST",
+  "notebook_source": {
+    "cells": 40,
+    "code_cells": 17,
+    "file": "IAHR_GNN_HKUST_Tutorial.ipynb",
+    "kernel": "iahr-gnn-hkust-tutorial"
+  },
+  "graph_widget_tabs_checked": {
+    "network": 3,
+    "adjacency": 4,
+    "source": 3,
+    "features": 2,
+    "embeddings": 2,
+    "sensors": 2
+  },
+  "trained_model_unchanged_after_widget_callbacks": true,
+  "matplotlib_figures_closed_after_callbacks": true,
+  "static_figures_visually_inspected": [
+    "network with all IDs",
+    "J84 adjacency",
+    "source travel-time pattern",
+    "input features and embedding",
+    "GNN architecture",
+    "opening pressure signal",
+    "first-arrival overlay",
+    "default noisy localisation"
+  ],
+  "static_figure_observations": "Original J/P/T labels, local-metre projection, 31 \u00d7 46 input and 31 \u00d7 32 embedding dimensions, 33 pipe outputs and 21 eligible pipes agree with the loaded case.",
+  "signal_widget_checks": {
+    "event": "First prespecified P24 held-out event",
+    "tabs": {
+      "mystery": 3,
+      "arrivals": 4,
+      "uncertainty": 4
+    },
+    "sensors_checked": [
+      "J10",
+      "J51"
+    ],
+    "errors": 0,
+    "default_noisy_feature_observation_finite": true,
+    "high_noise_error_handling_checked": true,
+    "pressure_noise_std_m": 0.005,
+    "extra_jitter_ms": 10,
+    "seed": 42
+  },
+  "native_browser_tested": false,
+  "platform": "Linux CPU; Python widget callbacks and rendered PNGs",
+  "map_legend_position": "Upper right, clear of the northern HKUST node cluster."
+}

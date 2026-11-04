@@ -1,0 +1,33 @@
+{
+  "case": "HKUST retained primary network",
+  "source": "Author-supplied HKUST/ICHD materials previously packaged in IAHR_GNN_HKUST",
+  "nodes": 31,
+  "junctions": 30,
+  "fixed_head_node": "T1",
+  "pipes": 33,
+  "length_range_m": [
+    20.2,
+    813.66
+  ],
+  "source_pipes_at_least_100m": 21,
+  "geometry_file": "hkust_primary_network.csv",
+  "hydraulic_input": "HKUST.inp",
+  "sha256": {
+    "hkust_primary_network.csv": "a3f39aa4876584c3cada7fc8d8726f3b9e4d8e74312888ce7820a33c5dc04a11",
+    "HKUST.inp": "e6fbcf408a38723ba7ad560c97f9fae3cf884a305b30e13abb0c3c1b3f3bfe17"
+  },
+  "units": {
+    "csv_length": "m",
+    "csv_diameter": "mm",
+    "inp_head": "m",
+    "inp_coordinate_order": "longitude, latitude in degrees"
+  },
+  "hydraulic_assumptions": {
+    "supply_head_m": 40.0,
+    "junction_elevations_m": 0.0,
+    "initial_demands_m3_s": 0.0,
+    "darcy_friction_factor": 0.02,
+    "wave_speed": "Diameter-dependent ductile-iron K9 model; see network_config.py"
+  },
+  "scope": "A controlled teaching model using the supplied retained topology and pipe dimensions; hydraulic demands and elevations are simplified, not surveyed operating conditions."
+}

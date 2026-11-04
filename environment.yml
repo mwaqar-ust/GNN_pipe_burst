@@ -1,0 +1,8 @@
+name: iahr-gnn-hkust-tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip>=24
+# Install requirements.txt and then run scripts/install_torch.py.
+# PyTorch is selected separately so CPU and NVIDIA machines share this file.

@@ -1,0 +1,36 @@
+{
+  "network": "HKUST",
+  "min_source_pipe_length_m": 100.0,
+  "sensors": null,
+  "split_seed": 2026,
+  "train_per_pipe": 48,
+  "val_per_pipe": 12,
+  "test_per_pipe": 2,
+  "training": {
+    "epochs": 500,
+    "sigma": 0.01,
+    "quantum": 0.01,
+    "seed": 42,
+    "batch_size": 128,
+    "hidden": 32,
+    "layers": 2,
+    "learning_rate": 0.002,
+    "position_weight": 4.0,
+    "patience": 30,
+    "threads": 2,
+    "print_every": 10,
+    "device": "auto",
+    "picking_error_samples": null,
+    "sampling_hz": 100.0
+  },
+  "evaluation": {
+    "pressure_noise_std_m": 0.005,
+    "extra_jitter_ms": 10.0,
+    "seed": 20261104
+  },
+  "model_file": "models/gnn_demo.npz",
+  "retrained_file": "outputs/gnn_user.npz",
+  "nominal_wave_speed_m_s": null,
+  "prior_dt_s": 0.00104045,
+  "coordinate_convention": "INP longitude/latitude projected to local equirectangular metres; physical lengths from INP."
+}
