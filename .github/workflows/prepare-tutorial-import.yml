@@ -24,7 +24,7 @@ jobs:
           path = Path("IAHR_GNN_HKUST_Tutorial.zip")
           data = path.read_bytes()
           actual = hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
-          assert actual == "bc879188f9811270479b128408e3d8082ba6b473", "Uploaded archive changed"
+          assert actual == "45b1e00f32b963e3c9fe65db389c661fd1bb5b4b", "Uploaded archive changed"
           with zipfile.ZipFile(path) as archive:
               assert archive.testzip() is None, "ZIP checksum failed"
               print("Archive verified. No project code is executed.")
