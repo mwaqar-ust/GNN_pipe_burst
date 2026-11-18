@@ -2,9 +2,9 @@
 
 **Can the arrival times of a pressure wave reveal where a pipe burst occurred?** This tutorial uses a graph neural network (GNN) to identify the source pipe and estimate the burst position along it from pressure records at a small number of sensors.
 
-The worked example uses a simplified model of the Hong Kong University of Science and Technology (HKUST) freshwater network. Muhammad Waqar developed the notebook for the IAHR Training Course on AI Tools for Transient Flow Analyses.
+The worked example uses a simplified model of the Hong Kong University of Science and Technology (HKUST) freshwater network. I developed this notebook for the IAHR Training Course on AI Tools for Transient Flow Analyses.
 
-[Watch Muhammad Waqar’s live demonstration of the notebook](https://www.iahr.org/video/clip?id=1988), recorded during the IAHR training course.
+[Watch my live demonstration of the notebook](https://www.iahr.org/video/clip?id=1988).
 
 [Open the tutorial notebook](IAHR_GNN_HKUST_Tutorial.ipynb) to read the worked example and view the saved figures on GitHub. To use the interactive plots, change the sensor layout or simulate a burst, run the notebook locally.
 
